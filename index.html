@@ -23,7 +23,7 @@
     <div class="container d-flex align-items-center justify-content-center vh-100">
         <div class="col-md-8 col-lg-6 col-xl-5">
             <form class="card">
-                <div class="card-body bg-dark rounded-4">
+                <div class="card-body bg-dark rounded-4 vw-100 p-2">
                     <h1 class="text-light fw-bold text-center">Weather</h1>
                     <div class="d-flex justify-content-center">
                         <input type="text" id="txtCity" class="form-control w-75 my-2" placeholder="Enter a city name" aria-label="City name input">
@@ -45,9 +45,9 @@
                         <!-- Weather Conditions & Icon -->
                         <div class="flex-col">
                             <!-- Weather Conditions -->
-                            <div class="d-flex flex-row align-items-center justify-content-between w-100 flex-nowrap">
-                                <img class="img-fluid mx-auto d-block" id="imgConditions" alt="Weather Condition Icon" style="width: 80px; height: 80px; object-fit: contain;">
-                                <h2 class="text-light p-2 text-center w-100 d-flex justify-content-center align-items-left" id="headerConditions">
+                            <div class="d-flex flex-row align-items-center justify-content-between w-100">
+                                <img class="img-fluid mx-auto d-block flex-no-wrap" id="imgConditions" alt="Weather Condition Icon" style="width: 80px; height: 80px; object-fit: contain;">
+                                <h2 class="text-light p-2 w-auto justify-content-center align-items-start w-100" id="headerConditions">
                                     Loading...
                                 </h2>
                                 
@@ -58,7 +58,7 @@
                                 <!-- Temperature -->
                                 <div class="d-flex flex-row align-items-center w-100" style="min-height: 80px;">
                                     <img src="Animated-Line-Icons/thermometer-fahrenheit.svg" alt="Temperature Icon" class="img-fluid" style="width: 80px; height: 80px; object-fit: contain;">
-                                    <h2 class="text-light p-0 text-center d-flex align-items-left" id="headerTemperature" style="margin-left: 10px;">
+                                    <h2 class="text-light p-0 text-center d-flex align-items-start" id="headerTemperature" style="margin-left: 10px;">
                                         Loading...
                                     </h2>
                                 </div>
@@ -66,7 +66,7 @@
                                 <!-- Wind Speed -->
                                 <div class="d-flex flex-row align-items-center w-100" style="min-height: 80px;">
                                     <img src="Animated-Line-Icons/wind.svg" alt="Wind Icon" class="img-fluid" style="width: 80px; height: 80px; object-fit: contain;">
-                                    <h2 class="text-light p-0 text-center d-flex align-items-left" id="headerWind" style="margin-left: 10px;">
+                                    <h2 class="text-light p-0 text-center d-flex align-items-start" id="headerWind" style="margin-left: 10px;">
                                         Loading...
                                     </h2>
                                 </div>
@@ -74,7 +74,7 @@
                                 <!-- Humidity -->
                                 <div class="d-flex flex-row align-items-center w-100" style="min-height: 80px;">
                                     <img src="Animated-Line-Icons/humidity.svg" alt="Humidity Icon" class="img-fluid" style="width: 80px; height: 80px; object-fit: contain;">
-                                    <h2 class="text-light p-0 text-center d-flex align-items-left" id="headerHumid" style="margin-left: 10px;">
+                                    <h2 class="text-light p-0 text-center d-flex align-items-start" id="headerHumid" style="margin-left: 10px;">
                                         Loading...
                                     </h2>
                                 </div>
