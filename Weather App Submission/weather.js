@@ -85,7 +85,7 @@ document.addEventListener("DOMContentLoaded", () => {
         .then(dataIP => {
             const userIP = dataIP.ip;
             console.log(userIP);
-            fetch(`https://api.ipstack.com/${userIP}?access_key=9a66fe1377dc80bbe47d50af19872017`)
+            fetch(`http://ip-api.com/json/${userIP}`)
                 .then(response => response.json())
                 .then(dataLocation => {
                     console.log(dataLocation);

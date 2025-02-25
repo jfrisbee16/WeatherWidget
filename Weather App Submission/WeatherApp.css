@@ -1,0 +1,12 @@
+
+.vr {
+    border-color: white !important;
+    background-color: white !important;
+    border-left: 2px solid white !important;
+    opacity: 1 !important;
+    border: 2px;
+}
+hr {
+    border: 1px solid white !important;
+    opacity: 1 !important;
+}
